@@ -1,0 +1,108 @@
+.features__bg {
+  width: 100%;
+  margin: auto;
+
+  padding-bottom: 2rem;
+}
+.main span {
+  font-family: Gustanlp;
+  font-size: 4.2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .features__bg {
+    padding-bottom: 0;
+  }
+  .features__content {
+    padding-bottom: 1rem !important;
+  }
+  .heading {
+    width: 98% !important;
+  }
+  .main p {
+    font-size: 4.5rem !important;
+  }
+  .features__main tr:nth-child(1) {
+    background-color: blanchedalmond !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .features__main {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main p {
+    font-size: 5rem !important;
+  }
+  .main span {
+    display: block;
+  }
+}
+.main p {
+  font-family: Gustanlp Light;
+  font-size: 4.2rem;
+}
+
+.features__content {
+  margin: auto;
+  padding-bottom: 60px;
+}
+.features__main {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  align-items: center;
+}
+.features__main > div {
+  display: flex;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-family: GustanLP;
+}
+
+.features__main div:nth-of-type(1) {
+  background-image: radial-gradient(circle at 49% 50%, #f9f9f9, #f0f0f0 176%);
+}
+.features__main div:nth-of-type(2) {
+  background-image: linear-gradient(to left, #00cfbb, #ffd94a 120%);
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  width: 34%;
+  opacity: 0.8;
+  color: black;
+}
+
+.features__main div:nth-of-type(3) {
+  background-color: rgba(175, 206, 237, 0.4);
+}
+.features__main Table {
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Gustanlp Bold;
+  color: #6f6f6f;
+}
+.features__main td:nth-of-type(1) {
+  background-image: radial-gradient(circle at 49% 50%, #f9f9f9, #f0f0f0 189%);
+  border-right: 5px solid white;
+}
+.features__main td:nth-of-type(2) {
+  background-color: #f0f0f0;
+  border-right: 5px solid white;
+}
+.features__main td:nth-of-type(3) {
+  background-color: #f0f0f0;
+  border-right: 5px solid white;
+  background-image: linear-gradient(to left, #00cfbb, #ffd94a 120%);
+  opacity: 0.8;
+  color: black;
+}
+.features__main td:nth-of-type(4) {
+  background-color: #e0efff;
+  /* border-right: 5px solid white; */
+}

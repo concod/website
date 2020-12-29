@@ -1,0 +1,159 @@
+.hero__bg {
+  background-color: #c6fff9;
+  padding-bottom: 14rem;
+}
+
+.heading strong {
+  color: #1b1b1b;
+  font-size: 3rem;
+  font-family: Gustanlp Bold !important;
+}
+.trial p {
+  font-family: Gustanlp Light;
+  font-size: 3.8rem;
+}
+.trial strong {
+  font-size: 5rem;
+}
+
+.subheading {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+}
+
+.hero__logo {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: baseline;
+}
+.hero__logo img {
+  width: 22rem;
+  object-fit: contain;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.hero__main {
+  display: flex;
+  padding-top: 9rem;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.3px;
+}
+
+.hero__main img {
+  /* width: 600px; */
+}
+.video {
+  width: 800px !important;
+}
+
+.video__btn {
+  justify-content: center;
+}
+@media only screen and (max-width: 1200px) {
+  .video {
+    width: 80%;
+  }
+  .hero__main {
+    width: 92%;
+  }
+  .heading strong {
+    /* font-size: 80%; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .video {
+    width: 100% !important;
+  }
+  .hero__bg {
+    padding-bottom: 2rem;
+  }
+  .hero__main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 2.42rem;
+    text-align: center;
+  }
+  .heading {
+    padding-bottom: 2rem;
+  }
+  .heading strong {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .trial {
+    padding-top: 2rem;
+  }
+  .trial strong {
+    font-size: 6.5rem;
+
+    /* padding-top: 7rem !important; */
+  }
+  .trial p:nth-child(2) {
+    padding-top: 3rem;
+    font-size: 6rem;
+  }
+  .heading p {
+    line-height: 1;
+  }
+  .heading {
+    /* font-size: 8rem; */
+  }
+
+  .hero__logo {
+    display: flex;
+    width: 90%;
+    padding-bottom: 2rem;
+  }
+  .subheading {
+    font-size: 2.5rem;
+    color: #1b1b1b;
+    padding-top: 5rem !important;
+    line-height: 2rem;
+  }
+  .cta {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .video {
+    width: 100% !important;
+  }
+  .heading strong {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+  }
+  .trial strong {
+    font-size: 4rem;
+  }
+  .trial p:nth-child(2) {
+    padding-top: 2rem;
+    font-size: 3rem;
+  }
+  .subheading {
+    font-size: 1.5rem;
+    color: #1b1b1b;
+    padding-top: 3rem !important;
+    line-height: 2rem;
+  }
+}
+
+.mute img,
+.replay img {
+  background-color: transparent !important;
+  cursor: pointer;
+}

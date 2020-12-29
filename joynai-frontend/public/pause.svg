@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="46" viewBox="0 0 56 46">
+    <defs>
+        <filter id="defsgx7t3a" width="128.3%" height="136.1%" x="-14.1%" y="-18.1%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feMorphology in="SourceAlpha" radius="1" result="shadowInner"/>
+            <feOffset in="shadowInner" result="shadowInner"/>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.297967657 0"/>
+        </filter>
+        <rect id="ip8p5vlsdb" width="46" height="36" x="0" y="0" rx="7"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-1191 -586) translate(1196 591)">
+                    <use fill="#000" filter="url(#defsgx7t3a)" xlink:href="#ip8p5vlsdb"/>
+                    <use stroke="#979797" xlink:href="#ip8p5vlsdb"/>
+                </g>
+                <path fill="#7B7B7B" d="M17 10H21V27H17zM25 10H29V27H25z" transform="translate(-1191 -586) translate(1196 591)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+.line_v {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  overflow: hidden;
+}
+.line_2 {
+  width: 200%;
+  height: 0.5px;
+  border-top: 1px dashed #7a90dc;
+  transform: rotate(90deg);
+}
+.content {
+  width: 100px;
+  height: 27px;
+  object-fit: contain;
+  border-radius: 13.5px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.26);
+  border: solid 1px #7a90dc;
+  background-color: #ffffff;
+  text-align: center;
+  z-index: 1;
+}
+
+.oval {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  border: solid 2px #ffffff;
+  background-color: #7a90dc;
+  border-radius: 100%;
+  overflow: hidden;
+  transform: translateY(1px);
+}

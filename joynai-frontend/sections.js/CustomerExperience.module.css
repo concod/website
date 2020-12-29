@@ -1,0 +1,139 @@
+.ce__bg {
+  padding: 6rem 0;
+  background-color: #efefef;
+}
+.ce__content {
+  display: flex;
+  flex-direction: column;
+}
+.cta {
+  width: 70%;
+  justify-content: center;
+}
+.cta div {
+  justify-content: center;
+}
+.ce__content video {
+  outline: none;
+}
+.video {
+  width: 70%;
+}
+
+.btn {
+  justify-content: center;
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 80% !important;
+    flex-direction: column;
+  } /*  */
+  .ce__content {
+    flex-direction: column;
+  }
+  .video {
+    width: 88%;
+    padding-top: 4rem;
+    margin: auto;
+  }
+  .btn {
+    padding-top: 1.5rem;
+    /* padding-right: 2rem; */
+  }
+  .replay {
+    /* padding-left: 2rem; */
+  }
+  .ce__text {
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    /* margin: auto; */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ce__text div {
+    width: 90%;
+    margin: auto;
+  }
+  .heading p:nth-child(3) {
+    font-size: 4rem;
+  }
+  .cta {
+    width: 40%;
+    margin: auto;
+    padding-top: 1rem;
+  }
+  .cta div {
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  .subheading div p {
+    display: inline;
+    font-size: 2.3rem;
+  }
+  .subheading div p:nth-child(2) {
+    padding-right: 0.5rem;
+  }
+}
+.container {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+
+  margin: auto;
+  height: 100%;
+  /* align-items: center; */
+}
+
+.ce__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: baseline;
+  height: 100%;
+
+  font-size: 4.8rem;
+  line-height: 1.2;
+}
+.ce__text span {
+  font-family: Gustanlp Bold;
+}
+.ce__text p {
+  font-family: Gustanlp Light;
+}
+.subheading {
+  font-size: 1.7rem;
+  font-family: Gustanlp;
+  color: black;
+}
+.ce__text button {
+  color: black;
+  outline: none;
+  border: none;
+}
+.ce__text button:active {
+  border: orange;
+  color: aquamarine;
+  outline: none;
+}
+.ce__text button:disabled {
+  color: gray;
+}
+
+.mute:hover,
+.replay:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 100% !important;
+  }
+  .cta {
+    width: 55%;
+  }
+  .video {
+    width: 100%;
+  }
+}

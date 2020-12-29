@@ -1,0 +1,175 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading {
+  font-family: Gustanlp Light;
+  font-size: 2.4rem;
+}
+.heading__main {
+  font-size: 72px;
+  background: linear-gradient(to left, #00cfbb 30%, #f0d850 115%, #ffd94a 20%);
+  font-size: 2.7rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Gustanlp Bold;
+  display: inline;
+  flex-direction: column;
+}
+.form__left {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  padding-left: 3rem;
+}
+
+.form__right {
+  width: max-content !important;
+  padding: 0 3rem;
+}
+.text__md {
+  padding-left: 20px;
+}
+.text__md p {
+  color: black;
+  font-family: Gustanlp Book;
+  font-size: 14px;
+}
+.text__tyt {
+  padding-left: 20px;
+}
+.text__tyt p {
+  color: black;
+  font-family: Gustanlp Book;
+  font-size: 2rem;
+}
+
+.form__md {
+  display: flex;
+  border: solid 1px #c5c5c5;
+  box-shadow: inset 0 1px 100px 20px rgba(50, 235, 227, 0.21);
+  box-shadow: inset 0 1px 100px 20px rgba(50, 235, 227, 0.21);
+  background-image: radial-gradient(circle at 50% 26%, #ffd94a, #00cf86 84%);
+  opacity: 0.85;
+  border-radius: 10px;
+  align-items: center;
+  padding: 12px;
+  margin-top: 1rem;
+}
+.imgbtm {
+  padding-top: 30px;
+}
+.imgbtm img {
+  object-fit: contain;
+  width: 380px;
+}
+
+.btn {
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #ff6a39;
+  padding: 10px 20px;
+  color: white;
+  width: 76%;
+  margin: auto;
+  /* font-size: 1.6rem; */
+}
+
+.btn:hover {
+  background-color: #ff6a39 !important;
+}
+
+.btn:active {
+  background-color: white;
+  border: white;
+  outline: white !important;
+}
+
+.text__lower {
+  padding-top: 2rem;
+  font-family: Gustanlp Book;
+  color: #1b1b1b;
+  font-size: 12px;
+}
+.imgtop {
+  display: contents;
+}
+.imgbtm {
+  display: none;
+}
+
+.main {
+  justify-content: space-around;
+  width: 111%;
+  background-color: #c6fff9;
+  padding-bottom: 6rem;
+  margin-top: -1rem;
+  opacity: 0.87;
+  margin-bottom: -4rem;
+}
+
+.main p {
+  background: linear-gradient(to left, #00cfbb 30%, #f0d850 115%, #ffd94a 20%);
+  font-family: Gustanlp;
+  font-size: 6rem;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.price {
+  font-size: 1.6rem;
+  font-family: Gustanlp Book;
+}
+@media only screen and (max-width: 1000px) {
+  .form__right {
+    padding: 0;
+    margin-left: -1rem;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    width: 106%;
+    margin-left: 1.3rem;
+  }
+  .main p {
+    font-size: 5rem;
+    padding-top: 2rem;
+  }
+  .text__tyt p {
+    font-size: 1.4rem !important;
+  }
+  .form__md {
+    width: 330px;
+  }
+
+  .price {
+    font-size: 1.4rem;
+    width: 320px;
+    margin-left: 1.3rem;
+  }
+  .imgtop {
+    display: none;
+  }
+  .imgbtm {
+    display: contents;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .form__left {
+    padding-left: 0;
+  }
+  .heading {
+    text-align: center;
+  }
+  .imgbtm img {
+    width: 300px !important;
+    padding-top: 2rem;
+    margin-left: 1.3rem;
+  }
+}

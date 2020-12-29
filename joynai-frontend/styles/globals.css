@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: Gustanlp Book;
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "Gustanlp Light";
+  src: url("/fonts/GustanLP/Gustanlp-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gustanlp Bold";
+  src: url("/fonts/GustanLP/Gustanlp-Bold.ttf");
+  font-style: Bold;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gustanlp Book";
+  src: url("/fonts/GustanLP/Gustanlp-Book.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gustanlp";
+  src: url("/fonts/GustanLP/Gustanlp-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0.2rem !important;
+  font-family: Gustanlp Book;
+}
+* {
+  box-sizing: border-box;
+}
+
+.modal-content {
+  width: fit-content !important;
+  margin-left: -230px !important;
+  border-radius: 17px !important;
+  overflow: hidden;
+}
+.close {
+  outline: none !important;
+}
+
+button {
+  font-family: Gustanlp Bold !important;
+  font-size: 1.6rem !important;
+}
+.video-react-big-play-button {
+  visibility: hidden;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ff6a39;
+  visibility: hidden;
+  transform: scale(0.6);
+  z-index: 100 !important;
+}
+.swiper-pagination-bullet {
+  background-color: #ff6a39 !important;
+  margin: 0 7px !important;
+  width: 12px;
+  height: 12px;
+}
+.swiper-container {
+  padding-bottom: 60px;
+  padding-right: 20px;
+}
+
+.video-react-control-bar {
+  display: none !important;
+}
+.video-react-video {
+  outline: white !important;
+}
+
+input {
+  font-family: Gutanlp Book !important;
+}
+
+.Hero_video__ouifv {
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .modal-content {
+    width: 350px !important;
+    margin-left: 6vw !important;
+    border-radius: 17px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .modal-content {
+    width: 350px !important;
+    margin-left: 2vw !important;
+    border-radius: 17px !important;
+    overflow: hidden;
+  }
+}

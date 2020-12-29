@@ -1,0 +1,32 @@
+.swipes {
+  margin-right: 5rem;
+
+  width: 60vw;
+}
+
+.imgs {
+  border-radius: 1%;
+  /* width: 300px; */
+  width: 60vw;
+  border-radius: 8px;
+}
+
+.imgs img {
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .swipes {
+    margin-right: 1rem;
+  }
+  .swipes {
+    /* margin-right: 5rem; */
+
+    width: 70vw;
+  }
+  .imgs {
+    width: 70vw;
+  }
+}
